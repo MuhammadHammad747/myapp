@@ -6,8 +6,11 @@ import React from 'react';
  import ClickCount from './componenets/ClickCount';
 import Bidder1 from './componenets/Bidder1';
 import Bidder2 from './componenets/Bidder2';
-import UseStateExample from './componenets/UseStateExample';
+
 import ClickEventandFunctions from './componenets/ClickEventandFunctions';
+import StateExample from './componenets/StateExample';
+
+
 
 
 
@@ -24,8 +27,9 @@ function App() {
 
 <Bidder1/>
 <Bidder2/>
-<UseStateExample/>
+<StateExample/>
 <ClickEventandFunctions />
+
    </div>
   );
 }
