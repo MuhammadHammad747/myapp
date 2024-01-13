@@ -14,7 +14,7 @@ export default function StateExample() {
 
 <h1> this is my fvrt {color}</h1>
  <button onClick={()=> setColor("Blue")}>Set color</button>
- <h1> My Full Name is  {name}</h1>
+ <h1> Change Name With Functiomal Component My Full Name is  {name}</h1>
  <button onClick={NameSet}>Change Name</button>
     </div>
   )
